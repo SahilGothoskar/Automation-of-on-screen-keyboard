@@ -1,0 +1,15 @@
+{
+  "tags": [
+    "eWithBar"
+  ],
+  "area": [
+    {
+      "xpos": 415,
+      "ypos": 475,
+      "width": 41,
+      "height": 42,
+      "type": "match"
+    }
+  ],
+  "properties": []
+}

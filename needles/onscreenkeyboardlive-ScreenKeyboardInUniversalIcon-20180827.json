@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "area": [
+    {
+      "xpos": 923,
+      "ypos": 203,
+      "width": 60,
+      "height": 16,
+      "type": "match"
+    }
+  ],
+  "tags": [
+    "ScreenKeyboardInUniversalIcon"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "tags": [
+    "InstallationLanguageSelection"
+  ],
+  "area": [
+    {
+      "xpos": 1,
+      "ypos": 41,
+      "width": 483,
+      "height": 110,
+      "type": "match"
+    }
+  ]
+}

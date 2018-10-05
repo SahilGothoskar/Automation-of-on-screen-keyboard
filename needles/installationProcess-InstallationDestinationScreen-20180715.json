@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "tags": [
+    "InstallationDestinationScreen"
+  ],
+  "area": [
+    {
+      "xpos": 7,
+      "ypos": 36,
+      "width": 1009,
+      "height": 165,
+      "type": "match"
+    }
+  ]
+}

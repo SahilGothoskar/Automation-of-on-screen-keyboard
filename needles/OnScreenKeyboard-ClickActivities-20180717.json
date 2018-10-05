@@ -1,0 +1,15 @@
+{
+  "tags": [
+    "ClickActivities"
+  ],
+  "properties": [],
+  "area": [
+    {
+      "xpos": 6,
+      "ypos": 6,
+      "width": 69,
+      "height": 17,
+      "type": "match"
+    }
+  ]
+}

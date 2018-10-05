@@ -1,0 +1,15 @@
+{
+  "tags": [
+    "CloseNumericAndSpecialKey"
+  ],
+  "properties": [],
+  "area": [
+    {
+      "xpos": 189,
+      "ypos": 720,
+      "width": 70,
+      "height": 40,
+      "type": "match"
+    }
+  ]
+}

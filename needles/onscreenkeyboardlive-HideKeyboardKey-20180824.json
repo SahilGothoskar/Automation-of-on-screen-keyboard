@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 764,
+      "ypos": 719,
+      "width": 70,
+      "height": 44,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "HideKeyboardKey"
+  ]
+}

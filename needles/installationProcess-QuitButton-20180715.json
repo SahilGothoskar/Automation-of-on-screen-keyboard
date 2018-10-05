@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 963,
+      "ypos": 681,
+      "width": 50,
+      "height": 25,
+      "type": "match"
+    }
+  ],
+  "tags": [
+    "QuitButton"
+  ],
+  "properties": []
+}

@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "area": [
+    {
+      "xpos": 981,
+      "ypos": 32,
+      "width": 38,
+      "height": 35,
+      "type": "match"
+    }
+  ],
+  "tags": [
+    "ClickCloseOption"
+  ]
+}

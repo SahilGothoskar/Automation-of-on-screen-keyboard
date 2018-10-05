@@ -1,0 +1,15 @@
+{
+  "tags": [
+    "AccountSkipButton"
+  ],
+  "properties": [],
+  "area": [
+    {
+      "xpos": 959,
+      "ypos": 34,
+      "width": 56,
+      "height": 28,
+      "type": "match"
+    }
+  ]
+}

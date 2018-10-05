@@ -1,0 +1,15 @@
+{
+  "tags": [
+    "SelectEnglishLanguage"
+  ],
+  "properties": [],
+  "area": [
+    {
+      "xpos": 220,
+      "ypos": 219,
+      "width": 341,
+      "height": 23,
+      "type": "match"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "tags": [
+    "TimeAndDateScreen"
+  ],
+  "area": [
+    {
+      "xpos": 6,
+      "ypos": 30,
+      "width": 1012,
+      "height": 73,
+      "type": "match"
+    }
+  ]
+}

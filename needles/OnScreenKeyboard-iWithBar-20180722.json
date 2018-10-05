@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "area": [
+    {
+      "xpos": 650,
+      "ypos": 476,
+      "width": 41,
+      "height": 42,
+      "type": "match"
+    }
+  ],
+  "tags": [
+    "iWithBar"
+  ]
+}

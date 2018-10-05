@@ -1,0 +1,15 @@
+{
+  "tags": [
+    "UniversalAccessScreenBar"
+  ],
+  "area": [
+    {
+      "xpos": 4,
+      "ypos": 31,
+      "width": 1015,
+      "height": 40,
+      "type": "match"
+    }
+  ],
+  "properties": []
+}

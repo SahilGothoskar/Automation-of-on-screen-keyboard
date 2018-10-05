@@ -1,0 +1,15 @@
+{
+  "tags": [
+    "MoreSpecialCharacterKey"
+  ],
+  "properties": [],
+  "area": [
+    {
+      "xpos": 189,
+      "ypos": 664,
+      "width": 74,
+      "height": 40,
+      "type": "match"
+    }
+  ]
+}

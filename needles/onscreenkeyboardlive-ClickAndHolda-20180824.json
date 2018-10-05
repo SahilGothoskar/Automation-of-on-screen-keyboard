@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "tags": [
+    "ClickAndHolda"
+  ],
+  "area": [
+    {
+      "xpos": 219,
+      "ypos": 605,
+      "width": 43,
+      "height": 43,
+      "type": "match"
+    }
+  ]
+}

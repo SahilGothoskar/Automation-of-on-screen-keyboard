@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 471,
+      "ypos": 565,
+      "width": 81,
+      "height": 47,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "ClosePopupAfterSelectingTryFedora"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 5,
+      "ypos": 34,
+      "width": 1013,
+      "height": 93,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "ConfigurationInstallationScreen"
+  ]
+}

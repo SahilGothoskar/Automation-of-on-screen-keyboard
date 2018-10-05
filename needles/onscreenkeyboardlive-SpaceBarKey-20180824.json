@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "tags": [
+    "SpaceBarKey"
+  ],
+  "area": [
+    {
+      "xpos": 333,
+      "ypos": 719,
+      "width": 276,
+      "height": 42,
+      "type": "match"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+● openqa-worker@1.service - openQA Worker #1
+   Loaded: loaded (/usr/lib/systemd/system/openqa-worker@.service; enabled-runtime; vendor preset: disabled)
+   Active: inactive (dead)

@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "tags": [
+    "RegionAndLanguageScreen"
+  ],
+  "area": [
+    {
+      "xpos": 556,
+      "ypos": 31,
+      "width": 160,
+      "height": 38,
+      "type": "match"
+    }
+  ]
+}

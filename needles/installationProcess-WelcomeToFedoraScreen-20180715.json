@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "tags": [
+    "WelcomeToFedoraScreen"
+  ],
+  "area": [
+    {
+      "xpos": 214,
+      "ypos": 82,
+      "width": 594,
+      "height": 249,
+      "type": "match"
+    }
+  ]
+}

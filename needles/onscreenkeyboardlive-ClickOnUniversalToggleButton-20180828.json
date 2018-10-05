@@ -1,0 +1,15 @@
+{
+  "tags": [
+    "ClickOnUniversalToggleButton"
+  ],
+  "properties": [],
+  "area": [
+    {
+      "xpos": 780,
+      "ypos": 109,
+      "width": 82,
+      "height": 22,
+      "type": "match"
+    }
+  ]
+}

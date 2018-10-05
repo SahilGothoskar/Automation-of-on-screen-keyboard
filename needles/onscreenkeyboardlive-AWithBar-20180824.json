@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "tags": [
+    "AWithBar"
+  ],
+  "area": [
+    {
+      "xpos": 407,
+      "ypos": 535,
+      "width": 44,
+      "height": 44,
+      "type": "match"
+    }
+  ]
+}

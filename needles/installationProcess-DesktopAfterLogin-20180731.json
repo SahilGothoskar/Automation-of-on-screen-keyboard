@@ -1,0 +1,15 @@
+{
+  "tags": [
+    "DesktopAfterLogin"
+  ],
+  "properties": [],
+  "area": [
+    {
+      "xpos": 5,
+      "ypos": 1,
+      "width": 449,
+      "height": 25,
+      "type": "match"
+    }
+  ]
+}

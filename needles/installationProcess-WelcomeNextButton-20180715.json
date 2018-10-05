@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "tags": [
+    "WelcomeNextButton"
+  ],
+  "area": [
+    {
+      "xpos": 956,
+      "ypos": 38,
+      "width": 57,
+      "height": 25,
+      "type": "match"
+    }
+  ]
+}

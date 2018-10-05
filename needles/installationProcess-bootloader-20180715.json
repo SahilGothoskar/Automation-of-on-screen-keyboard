@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "tags": [
+    "bootloader"
+  ],
+  "area": [
+    {
+      "xpos": 72,
+      "ypos": 126,
+      "width": 497,
+      "height": 172,
+      "type": "match"
+    }
+  ]
+}

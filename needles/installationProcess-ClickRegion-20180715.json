@@ -1,0 +1,15 @@
+{
+  "tags": [
+    "ClickRegion"
+  ],
+  "properties": [],
+  "area": [
+    {
+      "xpos": 245,
+      "ypos": 115,
+      "width": 28,
+      "height": 27,
+      "type": "match"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "tags": [
+    "UniversalIconInTitleBar"
+  ],
+  "area": [
+    {
+      "xpos": 846,
+      "ypos": 1,
+      "width": 47,
+      "height": 26,
+      "type": "match"
+    }
+  ],
+  "properties": []
+}

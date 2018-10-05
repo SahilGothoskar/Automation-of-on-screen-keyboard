@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "tags": [
+    "PrivacyNextButton"
+  ],
+  "area": [
+    {
+      "xpos": 958,
+      "ypos": 36,
+      "width": 57,
+      "height": 29,
+      "type": "match"
+    }
+  ]
+}

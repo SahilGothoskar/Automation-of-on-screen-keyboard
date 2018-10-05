@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "tags": [
+    "BeginInstallation"
+  ],
+  "area": [
+    {
+      "xpos": 882,
+      "ypos": 701,
+      "width": 133,
+      "height": 30,
+      "type": "match"
+    }
+  ]
+}

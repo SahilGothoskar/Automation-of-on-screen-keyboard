@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "tags": [
+    "ClickUniversalAccount"
+  ],
+  "area": [
+    {
+      "xpos": 343,
+      "ypos": 337,
+      "width": 326,
+      "height": 39,
+      "type": "match"
+    }
+  ]
+}
