@@ -7,7 +7,7 @@ sub run
 
     #TestCase4(a): On screen keyboard vs actual keyboars
     #Caps pressed on the actual keyboard
-    wait_idle 300;
+    wait_idle 100;
     assert_and_click "EnterKey";
     assert_and_click "EnterKey";
     type_string "Now testing in Japanese locale";
@@ -17,7 +17,8 @@ sub run
     assert_and_click "LangugeKey";
     assert_and_click "JapaneseLanguage";
     wait_idle 5;
-    assert_and_click "ClickToInputArea";
+    
+    assert_and_click "ClickAnywhere";
     assert_and_click "d";
     assert_and_click "r";
     assert_and_click "a";
@@ -118,172 +119,6 @@ sub run
     assert_and_click "EnterKey";
     assert_and_click "EnterKey";
 
-
-    #TestCase11(a): Using more variations of vowels keys on alphabetical pad
-    #Lowercase
-
-    #Click and hold the key a for 2sec.
-    assert_and_click "ClickAndHolda","right",30,2;
-    #selecting all the variatons of character a
-    assert_and_click "aWithSlant";
-        assert_and_click "ClickAndHolda","right",30,2;
-    assert_and_click "aWithRightSlant";
-        assert_and_click "ClickAndHolda","right",30,2;
-    assert_and_click "aWithCap";
-        assert_and_click "ClickAndHolda","right",30,2;
-    assert_and_click "aWithTwoDots";
-        assert_and_click "ClickAndHolda","right",30,2;
-    assert_and_click "aLikee";
-        assert_and_click "ClickAndHolda","right",30,2;
-    assert_and_click "aWithTilde";
-        assert_and_click "ClickAndHolda","right",30,2;
-    assert_and_click "aWithSingleDot";
-        assert_and_click "ClickAndHolda","right",30,2;
-    assert_and_click "aWithBar";
-
-    #Click and hold the key e for 2sec.
-    assert_and_click "ClickAndHolde","right",30,2;
-    #selecting all the variatons of character e
-    assert_and_click "eWithLeftSlant";
-        assert_and_click "ClickAndHolde","right",30,2;
-    assert_and_click "eWithRightSlant";
-        assert_and_click "ClickAndHolde","right",30,2;
-    assert_and_click "eWithCap";
-        assert_and_click "ClickAndHolde","right",30,2;
-    assert_and_click "eWithTwoDots";
-        assert_and_click "ClickAndHolde","right",30,2;
-    assert_and_click "eWithBar";
-
-    #Click and hold the key i for 2sec.
-    assert_and_click "ClickAndHoldi","right",30,2;
-    #selecting all the variatons of character i
-    assert_and_click "iWithCap";
-        assert_and_click "ClickAndHoldi","right",30,2;
-    assert_and_click "iWithTwoDots";
-        assert_and_click "ClickAndHoldi","right",30,2;
-    assert_and_click "iWithRightSlant";
-        assert_and_click "ClickAndHoldi","right",30,2;
-    assert_and_click "iWithBar";
-        assert_and_click "ClickAndHoldi","right",30,2;
-    assert_and_click "iWithLeftSlant";
-
-    #Click and hold the key o for 2sec.
-    assert_and_click "ClickAndHoldo","right",30,2;
-    #selecting all the variatons of character o
-    assert_and_click "oWithCap";
-        assert_and_click "ClickAndHoldo","right",30,2;
-    assert_and_click "oWithTwoDots";
-        assert_and_click "ClickAndHoldo","right",30,2;
-    assert_and_click "oWithLeftSlant";
-        assert_and_click "ClickAndHoldo","right",30,2;
-    assert_and_click "oWithRightSlant";
-        assert_and_click "ClickAndHoldo","right",30,2;
-    assert_and_click "oWithE";
-        assert_and_click "ClickAndHoldo","right",30,2;
-    assert_and_click "oLikePie";
-        assert_and_click "ClickAndHoldo","right",30,2;
-    assert_and_click "oWithBar";
-        assert_and_click "ClickAndHoldo","right",30,2;
-    assert_and_click "oWithTilde";
-
-    #Click and hold the key u for 2sec.
-    assert_and_click "ClickAndHoldu","right",30,2;
-    #selecting all the variatons of character u
-    assert_and_click "uWithCap";
-        assert_and_click "ClickAndHoldu","right",30,2;
-    assert_and_click "uWithTwoDots";
-        assert_and_click "ClickAndHoldu","right",30,2;
-    assert_and_click "uWithLeftSlant";
-        assert_and_click "ClickAndHoldu","right",30,2;
-    assert_and_click "uWithRiguhtSlant";
-        assert_and_click "ClickAndHoldu","right",30,2;
-    assert_and_click "uWithBar";
-    assert_and_click "EnterKey";
-    
-    #TestCase11(b): Using more variations of vowels keys on alphabetical pad
-    #Uppercase
-
-    assert_and_click "CapsKeyOn","right",30,2;
-    #Click and hold the key a for 2sec.
-    assert_and_click "ClickAndHoldA","right",30,2;
-    #selecting all the variatons of character a
-    assert_and_click "AWithSlant";
-        assert_and_click "ClickAndHoldA","right",30,2;
-    assert_and_click "AWithRightSlant";
-        assert_and_click "ClickAndHoldA","right",30,2;
-    assert_and_click "AWithCap";
-        assert_and_click "ClickAndHoldA","right",30,2;
-    assert_and_click "AWithTwoDots";
-        assert_and_click "ClickAndHoldA","right",30,2;
-    assert_and_click "ALikee";
-        assert_and_click "ClickAndHoldA","right",30,2;
-    assert_and_click "AWithTilde";
-        assert_and_click "ClickAndHoldA","right",30,2;
-    assert_and_click "AWithSingleDot";
-        assert_and_click "ClickAndHoldA","right",30,2;
-    assert_and_click "AWithBar";
-
-    #Click and hold the key e for 2sec.
-    assert_and_click "ClickAndHoldE","right",30,2;
-    #selecting all the variatons of character e
-    assert_and_click "EWithLeftSlant";
-        assert_and_click "ClickAndHoldE","right",30,2;
-    assert_and_click "EWithRightSlant";
-        assert_and_click "ClickAndHoldE","right",30,2;
-    assert_and_click "EWithCap";
-        assert_and_click "ClickAndHoldE","right",30,2;
-    assert_and_click "EWithTwoDots";
-        assert_and_click "ClickAndHoldE","right",30,2;
-    assert_and_click "EWithBar";
-
-    #Click and hold the key i for 2sec.
-    assert_and_click "ClickAndHoldI","right",30,2;
-    #selecting all the variatons of character i
-    assert_and_click "IWithCap";
-        assert_and_click "ClickAndHoldI","right",30,2;
-    assert_and_click "IWithTwoDots";
-        assert_and_click "ClickAndHoldI","right",30,2;
-    assert_and_click "IWithRightSlant";
-        assert_and_click "ClickAndHoldI","right",30,2;
-    assert_and_click "IWithBar";
-        assert_and_click "ClickAndHoldI","right",30,2;
-    assert_and_click "IWithLeftSlant";
-
-    #Click and hold the key o for 2sec.
-    assert_and_click "ClickAndHoldO","right",30,2;
-    #selecting all the variatons of character o
-    assert_and_click "OWithCap";
-        assert_and_click "ClickAndHoldO","right",30,2;
-    assert_and_click "OWithTwoDots";
-        assert_and_click "ClickAndHoldO","right",30,2;
-    assert_and_click "OWithLeftSlant";
-        assert_and_click "ClickAndHoldO","right",30,2;
-    assert_and_click "OWithRightSlant";
-        assert_and_click "ClickAndHoldO","right",30,2;
-    assert_and_click "OWithE";
-        assert_and_click "ClickAndHoldO","right",30,2;
-    assert_and_click "OLikePie";
-        assert_and_click "ClickAndHoldO","right",30,2;
-    assert_and_click "OWithBar";
-        assert_and_click "ClickAndHoldO","right",30,2;
-    assert_and_click "OWithTilde";
-
-    #Click and hold the key u for 2sec.
-    assert_and_click "ClickAndHoldU","right",30,2;
-    #selecting all the variatons of character u
-    assert_and_click "UWithCap";
-        assert_and_click "ClickAndHoldU","right",30,2;
-    assert_and_click "UWithTwoDots";
-        assert_and_click "ClickAndHoldU","right",30,2;
-    assert_and_click "UWithLeftSlant";
-        assert_and_click "ClickAndHoldU","right",30,2;
-    assert_and_click "UWithRiguhtSlant";
-        assert_and_click "ClickAndHoldU","right",30,2;
-    assert_and_click "UWithBar";
-    assert_and_click "CapsKeyOff";
-    assert_and_click "EnterKey";
-
-
     #TestCase13: Using the actual as well as on screen keyboard simultaneously
     assert_and_click "CapsKeyOn";
     assert_and_click "T";
@@ -292,6 +127,14 @@ sub run
     assert_and_click "e";
     assert_and_click "r";
     type_string " Forest";
+
+    
+    #TestCase10: The hide keyboard key
+    assert_and_click "EnterKey";
+    assert_and_click "HideKeyboardKey";
+    wait_idle 5;
+    assert_and_click "ClickAnywhere";
+    wait_idle 10;
 
     #TestCase3(a):Controlling on-screen keyboard with the help of universal icon on display
     #Disabling onscreen keyboard

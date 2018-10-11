@@ -2,18 +2,28 @@ use base "basetest";
 use strict;
 use testapi;
 
-sub run
+sub Type_Password
 {
-    assert_screen "bootloader",30;
-    send_key "ret";
+    
+    assert_and_click "t";
+    assert_and_click "e";
+    assert_and_click "s";
+    assert_and_click "t";
+    assert_and_click "NumericAndSpecialKey";
+    assert_and_click "@";
+    assert_and_click "1";
+    assert_and_click "2";
+    assert_and_click "3";
+    assert_and_click "CloseNumericAndSpecialKey";
+    assert_and_click "EnterKey";
+}
 
-    assert_screen "WelcomeToFedoraScreen",10000;
-    assert_and_click "TryFedora";
-    #assert_and_click "ClosePopupAfterSelectingTryFedora";
-    wait_idle 10;
+sub Enabling_OSK
+{
+
     #TestCase1: Enbling Onscreen keyboard and testing
     send_key "super";
-    wait_idle 10;
+    wait_idle 5;
     type_string "Settings";
     send_key "ret";
     assert_screen "SettingsScreen",1000;
@@ -33,7 +43,51 @@ sub run
     assert_and_click "ClickOnUniversalToggleButton";
     assert_and_click "ClickScreenKeyboardToggle";
     assert_and_click "ClickCloseOption";
+}
 
+sub run
+{
+    assert_screen "bootloader",30;
+    send_key "ret";
+
+    assert_screen "WelcomeToFedoraScreen",10000;
+    assert_and_click "TryFedora";
+    
+    #assert_and_click "ClosePopupAfterSelectingTryFedora";
+    wait_idle 5;
+    Enabling_OSK();
+    #Creating new user to test the OSK with GDM login screen
+    send_key "super";
+    type_string "Terminal";
+    send_key "ret";
+    wait_idle 5;
+    type_string "su - root";
+    send_key "ret";
+    wait_idle 3;
+    type_string "useradd test";
+    send_key "ret";
+    wait_idle 3;
+    type_string "passwd test";
+    send_key "ret";
+    wait_idle 3;
+    Type_Password();
+    Type_Password();
+    wait_idle 2;
+    type_string "exit";
+    type_string "exit";
+    send_key "ret";
+    assert_and_click "MenuBar";
+    assert_and_click "LiveUser";
+    assert_and_click "Logout";
+    assert_and_click "ConfirmLogout";
+    wait_idle 10;
+    assert_and_click "User";
+    wait_idle 5;
+    assert_and_click "UniversalTab";
+    assert_and_click "ScreenKeyboardToggle";
+    Type_Password();
+    wait_idle 30;
+    Enabling_OSK();
     #TestCase4(a): On screen keyboard vs actual keyboars
     #Caps pressed on the actual keyboard
     send_key "super";
@@ -132,10 +186,6 @@ sub run
     assert_and_click "r";
     assert_and_click "a";
     assert_and_click "EnterKey";
-    #TestCase10: The hide keyboard key
-    assert_and_click "HideKeyboardKey";
-    wait_idle 5;
-    assert_and_click "ClickToInputArea";
 
 
     #TestCase11(a): Using more variations of vowels keys on alphabetical pad
@@ -303,6 +353,7 @@ sub run
     assert_and_click "EnterKey";
 
 
+
     #TestCase13: Using the actual as well as on screen keyboard simultaneously
     assert_and_click "CapsKeyOn";
     assert_and_click "T";
@@ -311,6 +362,14 @@ sub run
     assert_and_click "e";
     assert_and_click "r";
     type_string " Forest";
+    assert_and_click "EnterKey";
+
+    #TestCase10: The hide keyboard key
+    assert_and_click "EnterKey";
+    assert_and_click "HideKeyboardKey";
+    wait_idle 5;
+    assert_and_click "ClickAnywhere";
+    wait_idle 10;
 
     
 }

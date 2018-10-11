@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 967,
+      "ypos": 2,
+      "width": 52,
+      "height": 19,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "MenuBar"
+  ]
+}

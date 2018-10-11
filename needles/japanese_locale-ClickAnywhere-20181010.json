@@ -1,0 +1,15 @@
+{
+  "properties": [],
+  "tags": [
+    "ClickAnywhere"
+  ],
+  "area": [
+    {
+      "xpos": 28,
+      "ypos": 377,
+      "width": 65,
+      "height": 27,
+      "type": "match"
+    }
+  ]
+}

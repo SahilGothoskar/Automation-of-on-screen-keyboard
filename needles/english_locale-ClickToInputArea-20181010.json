@@ -1,14 +1,14 @@
 {
-  "properties": [],
   "area": [
     {
-      "xpos": 4,
-      "ypos": 234,
+      "xpos": 0,
+      "ypos": 308,
       "width": 10,
-      "height": 20,
+      "height": 22,
       "type": "match"
     }
   ],
+  "properties": [],
   "tags": [
     "ClickToInputArea"
   ]

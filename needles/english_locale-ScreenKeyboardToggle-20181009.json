@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 775,
+      "ypos": 193,
+      "width": 235,
+      "height": 31,
+      "type": "match"
+    }
+  ],
+  "tags": [
+    "ScreenKeyboardToggle"
+  ],
+  "properties": []
+}
