@@ -14,7 +14,7 @@ sub run
     assert_and_click "EnterKey"; 
     assert_and_click "EnterKey";
     send_key "caps";
-    assert_and_click "LangugeKey";
+    assert_and_click "LanguageKey";
     assert_and_click "JapaneseLanguage";
     wait_idle 5;
     
@@ -145,6 +145,7 @@ sub run
     #Enabling onscreen keyboard
     assert_and_click "UniversalIconInTitleBar";
     assert_and_click "ScreenKeyboardInUniversalIcon";
+
 }
 sub test_flags
 {

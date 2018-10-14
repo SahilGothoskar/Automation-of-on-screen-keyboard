@@ -36,6 +36,17 @@ sub Enabling_OSK
     assert_and_click "Japanese";
     assert_and_click "Japanese(KanaKanji)";
     assert_and_click "AddInRandL";
+
+
+   
+    assert_and_click "PlusInRandL";
+    assert_and_click "MoreLanguage";
+    type_string "Russian";
+    assert_and_click "Russian(Russian_Federation)";
+    assert_and_click "Russian";
+    assert_and_click "AddInRandL";
+
+
     assert_and_click "ClickUniversalAccess";
     #send_key "ret";
     assert_and_dclick "UniversalAccessScreenBar",3000;
@@ -190,7 +201,7 @@ sub run
 
     #TestCase11(a): Using more variations of vowels keys on alphabetical pad
     #Lowercase
-
+=pod
     #Click and hold the key a for 2sec.
     assert_and_click "ClickAndHolda","right",30,2;
     #selecting all the variatons of character a
@@ -351,8 +362,11 @@ sub run
     assert_and_click "UWithBar";
     assert_and_click "CapsKeyOff";
     assert_and_click "EnterKey";
+=cut
 
-
+    assert_and_click "EnterKey";
+    assert_and_click "EnterKey";
+    assert_and_click "EnterKey";
 
     #TestCase13: Using the actual as well as on screen keyboard simultaneously
     assert_and_click "CapsKeyOn";
