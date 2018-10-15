@@ -2,9 +2,7 @@
 
 ![openQA](https://pbs.twimg.com/profile_images/854994974831759360/HU8Qj4wC_400x400.jpg)
 
-[![Build Status](https://travis-ci.org/doge/wow.svg)](https://github.com/AbdulRehmanQuadri/Automation-of-on-screen-keyboard)
-[![Coverage Status](http://img.shields.io/coveralls/doge/wow.svg)](https://github.com/AbdulRehmanQuadri/Automation-of-on-screen-keyboard)
-[![Badges](http://img.shields.io/:badges-7/7-ff6799.svg)](https://github.com/badges/badgerbadgerbadger)
+
 
 # Table of Contents  
 - [Introduction](#introduction)
