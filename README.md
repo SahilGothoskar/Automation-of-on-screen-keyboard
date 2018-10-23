@@ -66,7 +66,7 @@ refer https://www.youtube.com/watch?v=EM3XmaQXcLg&t=3187s&pbjreload=10
    - needles: This directory will contain all the needles(PNG and JSON format file) which will be generated when the user perform testing by marking required area.
 
    **Execution** 
-   - Executer i.e. the worker can be started from command line using following command:
+   - Executor i.e. the worker can be started from command line using following command:
    ``` 
       $ systemctl start openqa@workerN
    ```
