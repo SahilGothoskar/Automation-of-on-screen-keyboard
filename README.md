@@ -101,4 +101,8 @@ You can reach out to me at following platforms
 - LinkedIn https://www.linkedin.com/in/abdulrehman69/
 - Facebook https://www.facebook.com/abdulrehman.quadri.777
 
+    Open All Settings, and then go to Devices.
+    One the left-hand side of the Devices screen, select Typing and then scroll on the right-hand side until you locate Automatically show the touch keyboard in the windowed apps when there's no keyboard attached to your device.
+    Turn this option to "ON"
+
 
