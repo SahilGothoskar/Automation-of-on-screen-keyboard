@@ -79,7 +79,7 @@ $ openqa-client isos post ISO=my_iso.iso DISTRI=my_distri FLAVOR=sweet\ARCH=my_a
 2. Open the web browser and direct to the *localhost* and their you will find the test which will be executed in virtual machine.
    Note: The value assigned to all the attributes is in lowercase.  
    
-3. Error details
+3. Error details :
    - If any must match areas doesn’t match or if their is any syntactical or logical error in main.pm file or any other file in the tests directory will result in the failure of test.To trace the error just head towards the autoinst file autoinst-log.txt which is present under Logs.
    - If you get “cannot create/update needles” error while creating updating needles make sure that the needles directory is having the appropriate permission.
    - In order to manipulate the needles user needs to be logged in.
