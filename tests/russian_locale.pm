@@ -4,7 +4,7 @@ use testapi;
 #Capital R is preceded with all the assert_ functions because russian keyboard layout is appeared instead of english layout as of japanese 
 sub run
 {
-    
+    # waiting idle so that the previous test get completed
     wait_idle 100;
     send_key "ctrl-t";
     assert_and_click "ClickAnywhere2";  
