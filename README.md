@@ -81,7 +81,7 @@ $ openqa-client isos post ISO=my_iso.iso DISTRI=my_distri FLAVOR=sweet\ARCH=my_a
    
 3. Error details :
    - If any must match areas doesn’t match or if their is any syntactical or logical error in main.pm file or any other file in the tests directory will result in the failure of test.To trace the error just head towards the autoinst file autoinst-log.txt which is present under Logs.
-   - If you get “cannot create/update needles” error while creating updating needles make sure that the needles directory is having the appropriate permission.
+   - If you get “cannot create/update needles” error while creating or updating needles make sure that the needles directory is having the appropriate permission.
    - In order to manipulate the needles user needs to be logged in.
    
 **Executing qcow2 image format**
