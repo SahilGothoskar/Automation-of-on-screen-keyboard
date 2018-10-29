@@ -1,6 +1,7 @@
 # Automation-of-on-screen-keyboard
 
 ![openQA](https://pbs.twimg.com/profile_images/854994974831759360/HU8Qj4wC_400x400.jpg)
+.
 
 
 
